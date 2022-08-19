@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*extendemos un container de ancho total 
+ con borde gris */
+.container {
+    width: 100%;
+    border: solid 1px #ddd;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+/* 80% de ancho para colocar la imagen al costado, tamaño letra 18px,  */
+.header {
+    height: 10em;
+    width: 80%;
+    padding: 5em;
+    font-size: 18px;
+}
+
+
+.logo {
+    width: 20%;
+    margin: auto;
+}
+
+/* 800 el grueso de carracteres del texto */
+h1 {
+    margin: 0px;
+    font-weight: 800;
+}
+
+ /* damos un 60% de ancho para el contenido de los productos */
+.productos {
+    width: 60%;
+    margin: auto;
+}
+
+/* Tamaño de la imagen 50% alineada a la derecha con borde como el container */
+.productos img {
+    width: 50%;
+    margin: auto;
+    float: right;
+    border: solid 1px #ddd;
+}
+
+
+/* Tamaño de la columan de 80%*/
+.productos td {
+    width: 80%;
+    padding: 10px;
+}
+
+
+/* color de fondo negro, texto blanco, centrado, tamaño de letra 14px */
+.footer {
+    height: 2em;
+    line-height: 2em;
+    background-color: black;
+    color: white;
+    text-align: center;
+   font-size: 14px;
+}
